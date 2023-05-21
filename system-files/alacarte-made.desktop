@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=PLATFORM
+Exec=sh /home/pi/Desktop/platform-pi-scripts/run.sh
+Type=Application
+Icon=gnome-panel-launcher

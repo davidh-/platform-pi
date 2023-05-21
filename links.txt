@@ -1,0 +1,9 @@
+
+
+# setup autostart of scripts to run on boot
+https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/method-2-autostart
+
+
+# setup uap0 and internet sharing to eth0
+https://raspberrypi.stackexchange.com/questions/89803/access-point-as-wifi-router-repeater-optional-with-bridge/89804
+# restart 'sudo systemctl stop dhcpcd && sudo systemctl start uap@0 && sudo systemctl start dhcpcd'
