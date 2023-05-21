@@ -2,6 +2,6 @@
 Comment=
 Terminal=false
 Name=PLATFORM
-Exec=sh /home/pi/Desktop/platform-pi-scripts/run.sh
+Exec=sh /home/pi/Desktop/platform-pi/run.sh
 Type=Application
 Icon=gnome-panel-launcher

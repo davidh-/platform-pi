@@ -1,3 +1,8 @@
+
+#to-do: add copy from system to system-files option for backup purposes
+
+
+
 cp -a /system-files/alacarte-made.desktop /home/pi/.config/autostart
 cp -a /system-files/dhcpcd.conf /etc
 cp -a /system-files/dnsmasq.conf  /etc
