@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sh ~/Desktop/platform-scripts/platform-android-setup.sh &
+sh /home/pi/Desktop/platform-pi/platform-android-setup.sh &
 
 python3 /home/pi/python-libgqe/graph.py &
 

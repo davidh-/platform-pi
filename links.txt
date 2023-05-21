@@ -1,6 +1,10 @@
 
 
-# setup autostart of scripts to run on boot
+# .bashrc script on terminal start
+https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
+
+
+# setup 'autostart' of scripts to run on boot for desktop files
 https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/method-2-autostart
 
 
