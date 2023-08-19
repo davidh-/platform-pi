@@ -1,4 +1,4 @@
-
+#!/bin/sh
 #to-do: add copy from system to system-files option for backup purposes
 
 
