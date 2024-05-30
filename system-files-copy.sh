@@ -12,3 +12,4 @@ cp -a system-files/hostapd.conf /etc/hostapd
 cp -a system-files/.bashrc /home/pi
 cp -a system-files/chrony.conf /etc/chrony
 cp -a system-files/gpsd /etc/default
+cp -a system-files/99-usb-serial.rules /etc/udev/rules.d
