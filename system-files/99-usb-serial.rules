@@ -7,6 +7,9 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_PATH
 SUBSYSTEM=="video4linux", KERNEL=="video*", ATTRS{idVendor}=="1514", ATTRS{idProduct}=="0001", ATTR{index}=="0", NAME="video0", SYMLINK+="ircam"
 SUBSYSTEM=="video4linux", ATTRS{idVendor}=="32e4", ATTRS{idProduct}=="9230", SYMLINK+="uvcam"
 
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="pantilt"
+
+
 # use this to reload changes
 #sudo udevadm control --reload-rules
 #sudo udevadm trigger
