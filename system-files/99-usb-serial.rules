@@ -4,8 +4,9 @@
 SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_PATH}=="platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0", SYMLINK+="emf390"
 SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", ENV{ID_PATH}=="platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2.1:1.0", SYMLINK+="gmc500"
 
-SUBSYSTEM=="video4linux", KERNEL=="video*", ATTRS{idVendor}=="1514", ATTRS{idProduct}=="0001", ATTR{index}=="0", NAME="video0", SYMLINK+="ircam"
-SUBSYSTEM=="video4linux", ATTRS{idVendor}=="32e4", ATTRS{idProduct}=="9230", SYMLINK+="uvcam"
+SUBSYSTEM=="video4linux", KERNEL=="video*", ATTRS{idVendor}=="1514", ATTRS{idProduct}=="0001", ATTR{index}=="0", SYMLINK+="ircam"
+SUBSYSTEM=="video4linux", KERNEL=="video*", ATTRS{idVendor}=="32e4", ATTRS{idProduct}=="9230", ATTR{index}=="0", SYMLINK+="uvcam"
+
 
 SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="pantilt"
 

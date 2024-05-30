@@ -23,4 +23,4 @@ python3 /home/pi/uv-cam/uv-cam.py &
 # cd /home/pi/SCServo_Python/sms_sts/
 # sudo python3 dir_control.py 
 
-# cd ~/SCServo_Python/sms_sts/ && lxterminal -e python3 dir_control.py &
+cd ~/SCServo_Python/sms_sts/ && lxterminal -e python3 dir_control.py &
